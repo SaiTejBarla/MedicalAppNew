@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medication Reminder App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Medication Reminder App</h1>
+        <form id="uploadForm">
+            <label for="file">📸 Upload Prescription:</label>
+            <input type="file" id="file" accept="image/*" required>
+            <button type="submit">Scan Prescription</button>
+        </form>
+        <div id="result"></div>
+        <div id="reminders"></div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
